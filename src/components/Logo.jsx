@@ -4,10 +4,14 @@ import styles from "./Logo.module.css";
 
 function Logo() {
   return (
-    <NavLink to='/'>
-      <img src='../../images/logo.png' alt="WorldWise logo" className={styles.logo} />
+    <NavLink to="/">
+      <img
+        src="../../images/logo.png"
+        alt="WorldWise logo"
+        className={styles.logo}
+      />
     </NavLink>
-  ) 
+  );
 }
 
 export default Logo;

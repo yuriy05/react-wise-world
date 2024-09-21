@@ -1,8 +1,8 @@
-import {useState} from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import styles from "./Login.module.css";
-import PageNav from '../../components/PageNav/PageNav';
+import PageNav from "../../components/PageNav/PageNav";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
@@ -34,7 +34,7 @@ export default function Login() {
         </div>
 
         <div>
-          <Link to='/app'>
+          <Link to="/app">
             <button className={styles.ctaLink}>Login</button>
           </Link>
         </div>

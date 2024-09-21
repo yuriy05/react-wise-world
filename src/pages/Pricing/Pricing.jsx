@@ -19,7 +19,12 @@ export default function Product() {
             voluptatem iste.
           </p>
         </div>
-        <img src="/images/img-2.jpg" width={365} height={365} alt="overview of a large city with skyscrapers" />
+        <img
+          src="/images/img-2.jpg"
+          width={365}
+          height={365}
+          alt="overview of a large city with skyscrapers"
+        />
       </section>
     </main>
   );
